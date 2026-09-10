@@ -1,0 +1,38 @@
+# 敏感配置文件 - 包含 API 密钥等
+.env
+.env.local
+.env.*.local
+
+# 聊天记录和记忆数据（隐私）
+chat_logs.json
+chat_memory.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+Thumbs.db
